@@ -1,0 +1,93 @@
+body {
+    background-color: #f0f0f0; /* Set a nice background color */
+    font-family: 'Arial', sans-serif; /* Use a nice font-family */
+    color: #333; /* Set text color */
+    font-size: 13px; /* Set font size */
+    line-height: 1.6; /* Set line height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+h1, h2, h3 {
+    color: #007bff; /* Set header text color to a nice blue (#007bff) */
+    font-family: 'Roboto', sans-serif; /* Use a different font-family for headers (Roboto) */
+    letter-spacing: 1px; /* Add letter spacing for headers */
+}
+
+h1 {
+    font-size: 36px; /* Set font size for h1 */
+    line-height: 1.2; /* Set line height for h1 */
+}
+
+h2 {
+    font-size: 25px; /* Set font size for h2 */
+    line-height: 1.3; /* Set line height for h2 */
+}
+
+h3 {
+    font-size: 24px; /* Set font size for h3 */
+    line-height: 1.4; /* Set line height for h3 */
+}
+
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+a:hover {
+    color: #0056b3; /* Change link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.container {
+    width: 700px; 
+    margin: 40px auto; 
+  }
+
+.card-white {
+    background-color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    transition: border-color 0.3s ease;
+}
+
+.card-white:hover {
+    border-color: #007bff; 
+}
+
+
+#profile-picture {
+    border-radius: 50%; 
+}
+
+
+.introduction-link {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007bff;
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.introduction-link:hover {
+    background-color: #0056b3; 
+}
+
+.social-links {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+}
+
+.social-links li {
+    margin-right: 20px; 
+}
+
+.paragraph {
+    margin-bottom: 20px; 
+}
